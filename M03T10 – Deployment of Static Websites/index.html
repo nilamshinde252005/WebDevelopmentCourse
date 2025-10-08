@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nilam Shinde — Online CV</title>
+  <style>
+    body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial;margin:0;background:#f7f9fc;color:#111}
+    .wrap{max-width:900px;margin:0 auto;padding:28px}
+    header h1{margin:0 0 6px 0;font-size:32px}
+    header .muted{color:#666}
+    section{background:#fff;padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.06);margin:16px 0}
+    h2{margin:0 0 10px 0}
+    ul{margin:8px 0 0 18px}
+    .grid{display:grid;gap:16px}
+    @media(min-width:800px){.grid{grid-template-columns:1fr 1fr}}
+    .chip{display:inline-block;background:#eef3ff;border:1px solid #dbe6ff;padding:4px 8px;border-radius:999px;margin:4px 6px 0 0}
+    a{color:#0b5cff;text-decoration:none} a:hover{text-decoration:underline}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Nilam Shinde</h1>
+      <div class="muted">London & Pune • JavaScript / Web Development</div>
+    </header>
+
+    <!-- 3 paragraphs max -->
+    <section aria-labelledby="about">
+      <h2 id="about">About</h2>
+      <p>I’m a Computer Science undergraduate focused on front-end development and building clear, user-friendly interfaces with HTML, CSS and JavaScript.</p>
+      <p>I enjoy turning requirements into clean, accessible UI code and iterating quickly with feedback. Recent coursework includes REST APIs, React basics, and client-side storage.</p>
+      <p>My goals this year are to deepen my JavaScript skills, contribute to real projects, and grow into a full-stack role.</p>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/your-linkedin/">linkedin.com/in/your-linkedin</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/nilamshinde252005">github.com/nilamshinde252005</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="skills">
+      <h2 id="skills">Skills & Competencies</h2>
+      <div>
+        <span class="chip">HTML5</span>
+        <span class="chip">CSS3</span>
+        <span class="chip">JavaScript (ES6+)</span>
+        <span class="chip">DOM & Events</span>
+        <span class="chip">JSON & Web Storage</span>
+        <span class="chip">Git & GitHub</span>
+        <span class="chip">Responsive Layouts</span>
+      </div>
+    </section>
+
+    <section aria-labelledby="education" class="grid">
+      <div>
+        <h2 id="education">Education</h2>
+        <p><strong>BSc Computer Science</strong><br/>University of Westminster — Ongoing</p>
+      </div>
+      <div>
+        <h2>Key Modules</h2>
+        <ul>
+          <li>JavaScript Programming</li>
+          <li>Web Development Fundamentals</li>
+          <li>APIs & REST basics</li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="experience">
+      <h2 id="experience">Work & Projects</h2>
+      <ul>
+        <li><strong>Static Website Deployment</strong> — Hosted on GitHub Pages, implemented structured layout and accessibility basics.</li>
+        <li><strong>Shopping List App</strong> — DOM manipulation, events, and local/session storage.</li>
+        <li><strong>OOP & Closures Exercises</strong> — Constructor patterns, array methods, and functional patterns.</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
